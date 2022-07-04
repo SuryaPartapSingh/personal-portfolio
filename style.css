@@ -1,0 +1,259 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
+.container {
+  display: flex;
+}
+/*sidebar styling*/
+.sidebar {
+    background-color: rgb(90, 88, 99);
+    color: white;
+    width: 200px;
+     position: sticky; 
+    height: 100vh;
+    /* transform: translate(-342px, 0px); */
+    margin: -1px 109px;
+    margin-left: -2px;
+    text-decoration: none;
+}
+.sidebar nav {
+    margin-top: 70px;
+    padding: 0px;
+    margin-left: -44px;
+}
+.sidebar nav li {
+  list-style: none;
+  font-size: 25px;
+  padding: 30px;
+}
+.sidebar nav li a{
+    color: white;
+    text-decoration: none;
+}
+/*main styling*/
+.main {
+    width: 94%;
+    margin: 11px 1px;
+}
+.infocontainer {
+  /*background-color: hsl(240deg 46% 81%);*/
+  height: 30vw;
+  width: 83vw;
+  margin: 80px 0px;
+  display: flex;
+  justify-content: space-around;
+}
+.devinfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 40px;
+}
+
+.hello {
+    font-size: 85px;
+}
+.Name {
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.About {
+    font-size: 40px;
+}
+.Moreabout{
+    font-size: 30px;
+    margin: 20px;
+}
+.buttons button{
+    color: rgb(24, 123, 209);
+    padding: 5px;
+    margin: 30px 20px;
+    width: 175px;
+    text-decoration: none;
+    border-radius: 20px;
+    font-family: fangsong;
+    font-size: 25px;
+    background-color: #83847f;
+    font-weight: bold;
+    cursor: pointer;
+}
+.buttons button:hover{
+    background-color: #d48113;
+    color: aliceblue;
+    text-decoration: none;
+    cursor: pointer;
+}
+/*image style*/
+.devpic img {
+    height: 575px;
+    margin: 165px 16px;
+}
+/*contact information*/
+.contactform{
+    padding: 20px;
+}
+.contactform h1{
+    text-align: left;
+    margin: 0px 0px;
+    font-family: fangsong;
+    text-decoration: underline;
+}
+.contactform div{
+    margin: 25px 11px;
+    padding: 20px;
+    height: 30px;
+    display: flex;
+    border: rgb(9, 9, 9);
+    border-radius: 13px;
+    font-size: 28px;
+}
+.contactform div input{
+    border-radius: 10px;
+    margin: 32px -159px;
+    padding: 15px;
+    width: 30%;
+    font-size: 20px;
+}
+h6{
+    font-size: 13px;
+    font-family: cursive;
+    text-align: left;
+    color: #430f72;
+    margin: 15px -307px;
+    padding: 6px;
+}
+#form-check-input{
+    margin: 5px -175px
+}
+.btn {
+    border-radius: 4px;
+    background-color: rgb(73, 73, 245);
+    width: 80px;
+    margin-top: 0px;
+    margin-left: 35px;
+    padding: 5px;
+    color: antiquewhite;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: blue;
+}
+
+
+/*Blog styling*/
+
+.Blogcontainer{
+    display: flex;
+    flex-direction: column;
+}
+.Blogcontainer h1{
+    padding: 25px;
+    font-size: 60px;
+    color: #250c89;
+}
+.blogitem h4{
+    font-size: 35px;
+    margin: 2px 21px;
+    font-family: serif;
+}
+.blogitem p{
+    font-size: 25px;
+    margin: 2px 21px;
+    padding: 15px;
+}
+
+/* intro styling*/
+
+.devinfo{
+    margin-top: 405px;
+}
+.skill{
+    width: 308px;
+    border-radius: 44px;
+    height: 17px;
+    margin: 5px;
+    padding: 10px 24px;
+    background-color: #c10101;
+}
+.css{
+    width: 288px;
+    border-radius: 44px;
+    height: 17px;
+    border-color: black;
+    margin: 5px;
+    padding: 10px 24px;
+    background-color: #dfc416;
+}
+.js{
+    width: 248px;
+    border-radius: 44px;
+    height: 17px;
+    margin: 5px;
+    border-color: black;
+    padding: 10px 24px;
+    background-color: #0b9bef;
+}
+.react{
+    width: 108px;
+    border-radius: 44px;
+    height: 17px;
+    margin: 5px;
+    border-color: black;
+    padding: 10px 24px;
+    background-color: #1a05a1;
+}
+.c{
+    width: 208px;
+    border-radius: 44px;
+    height: 17px;
+    margin: 5px;
+    border-color: black;
+    padding: 10px 24px;
+    background-color: #f73804;
+}
+.devinfo p{
+    font-size: 25px;
+    margin: -5px 11px;
+    padding: 8px
+}
+
+/*SERVICE STYLING*/
+
+.servicecontainer{
+    font-size: 25px;
+    margin: -5px 11px;
+    padding: 8px
+}
+.servicecontainer ul{
+    font-size: 25px;
+    margin: 1px 60px;
+    font-family: cursive;
+    padding: 8px;
+}
+
+
+/*for responsive*/
+
+@media screen and (max-width: 1030px) {
+    body {
+      background-color: lightgreen;
+    }
+  }
+  .hamburger{
+   width:2px
+  }
+
+.ham{
+    width: 20px;
+    margin-top: 0px;
+    cursor: pointer;
+    margin-left: 0px;
+}
+.cross{
+    width: 20px;
+    margin-top: 0px;
+    cursor: pointer;
+    margin-left: 125px;
+}
+.sidebargo{
+
+}
